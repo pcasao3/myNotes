@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width">
+  <title>myNotes</title>
+
+  <link rel="stylesheet" href="vendor/topcoat/css/topcoat-mobile-dark.css" />
+  <link rel="stylesheet" href="stylesheets/application.css" />
+
+  <script src="javascripts/onerror.js"></script>
+  <script src="javascripts/console.log.js"></script>
+
+  <!-- cordova.js is served from localhost to ensure the correct version -->
+  <script src="http://localhost/appgyver/cordova.js"></script>
+  <script src="components/steroids-js/steroids.js"></script>
+
+  <script src="javascripts/application.js"></script>
+</head>
+<body>
+    <form id="frm">
+        <input size="42" type="text"  id="sticky_content" />
+        
+        <div class="topcoat-button full center" id="add_sticky">New Sticky</div>
+        
+    </form>
+    
+    <ul id="stickies">
+    </ul>
+    
+    <form id="endfrm">
+        <div class="topcoat-button full center" id="remove_sticky">Remove Newest Sticky</div>
+    </form>
+    
+</body>
+</html>
